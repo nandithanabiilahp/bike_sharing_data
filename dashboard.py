@@ -13,7 +13,7 @@ day_df = pd.DataFrame({
 sorted_day_df = day_df.sort_values(by='bike_count', ascending=False)
 
 # Tambahkan gambar header
-header_image = "bike_dash.jpg"  # Ganti dengan URL gambar Anda
+header_image = "https://unsplash.com/photos/two-people-cycling-near-body-of-water-during-daytime-fEE30EZJlNM?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash"  # Ganti dengan URL gambar Anda
 st.image(header_image, use_column_width=True)
 
 import streamlit as st
